@@ -1,17 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import './style.css'
-import Main_page from './components/Main';
+import Main from './components/Main';
+import { Routes, Route, Link, NavLink } from 'react-router-dom';
 
 function App() {
   return (
 
-
       <Routes>
-          <Route path="/" element={<Main_page />} />
+          <Route path="/saksi" element={<Main />} />
        </Routes>
       
-
   );
 }
 

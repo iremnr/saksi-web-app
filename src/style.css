@@ -6,13 +6,13 @@
   }
   
 
-body {
+.body {
     background: #f9f9f9;
     min-height: 100vh;
    overflow-x: hidden;
 }
 
-header {
+.header {
     position: absolute;
     top: 0;
     left: 0;
