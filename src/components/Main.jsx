@@ -1,4 +1,14 @@
 import React from "react";
+import saksilogo from '../assets/saksilogo.png';
+import hill1 from '../assets/hill1.png';
+import hill2 from '../assets/hill2.png';
+import hill3 from '../assets/hill3.png';
+import hill4 from '../assets/hill4.png';
+import hill5 from '../assets/hill5.png';
+import tree from '../assets/tree.png';
+import leaf from '../assets/leaf.png';
+import plant from '../assets/plant.png';
+
 
 function Main() {
 
@@ -6,32 +16,34 @@ function Main() {
 
     return (
 
+
         <div className="body">
-            <header>
-                <h2 className="logo">SAKSI</h2>
+            <div className="header">
+                <img className="" src={saksilogo} alt="" />
                 <nav className="navigation">
                     <a href="#" className="active">Anasayfa</a>
                     <a href="#">Misyonumuz</a>
                     <a href="#">Hakkımızda</a>
                 </nav>
-            </header>
+            </div>
+
             <div className="parallax">
-                <img src="hill1.png" id="hill1"></img>
-                <img src="hill2.png" id="hill2"></img>
-                <img src="hill3.png" id="hill3"></img>
-                <img src="hill4.png" id="hill4"></img>
-                <img src="hill5.png" id="hill5"></img>
-                <img src="tree.png" id="tree"></img>
-                <img src="leaf.png" id="leaf"></img>
+                <img className="" src={hill1} alt="" />
+                <img className="" src={hill2} alt="" />
+                <img className="" src={hill3} alt="" />
+                <img className="" src={hill4} alt="" />
+                <img className="" src={hill5} alt="" />
+                <img className="" src={tree} alt="" />
+                <img className="" src={leaf} alt="" />
                 <h2 id="text">Saksı Yeni Nesil Bitki Medyası</h2>
-                <img src="plant.png" id="plant"></img>
+                <img className="" src={plant} alt="" />
             </div>
             
             <div className="sec">
                 <h2>Saksı scrolling website</h2>
-                <div>
+            <div>
 
-                </div>
+            </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non massa est. Etiam nec rutrum augue, nec maximus sem. Nunc consequat mollis lacus, sed mollis eros faucibus nec. Sed porttitor, sapien ac efficitur commodo, dui arcu aliquet ex, in bibendum tellus metus et orci. Aliquam aliquet ex vel mi feugiat, id varius tellus dictum. Suspendisse nec efficitur turpis. Quisque eu sollicitudin dui, sed finibus ligula.
 
@@ -45,9 +57,8 @@ function Main() {
                 </p>
             </div>
 
-            <script src="script.js"></script>
         </div>
-    )
+    );
 }
 
 export default Main;
